@@ -6,10 +6,10 @@ Analyze clean water accessibility across African countries to identify regions n
 ## Tools Used
 - **SQL** (Data querying and analysis)
 - **Excel** (Data cleaning and basic visualization)
-- **Tableau** (Optional for advanced visuals)
+- **Power BI** (for advanced visuals)
 
 ## Data Sources
-- Sample dataset: Mock data for demonstration (replace with [World Bank Data](https://data.worldbank.org/) later).
+- Sample dataset: Mock data for demonstration World Bank Data https://data.worldbank.org/
 - Real-world dataset idea: [UNICEF Water Scarcity in Africa](https://www.unicef.org/wash/water-scarcity).
 
 ## SQL Analysis Steps
