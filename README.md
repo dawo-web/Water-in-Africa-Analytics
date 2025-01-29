@@ -27,3 +27,7 @@ Analyze clean water accessibility across African countries to identify regions n
 3. View results in the `outputs/` folder.
 
 ![Water Access Chart](outputs/water_access.png) *(Optional: Add your chart here)*
+## Advanced SQL Techniques
+- **Joins**: Combined water access and population data for deeper insights.
+- **Window Functions**: Ranked countries by water stress levels.
+- **CTEs & ROLLUP**: Created regional summaries and temporal comparisons.
