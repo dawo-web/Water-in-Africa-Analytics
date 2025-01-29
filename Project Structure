@@ -1,0 +1,12 @@
+Africa-Water-Analysis/
+├── data/                          # Store datasets here
+│   ├── africa_water_access.csv    # Sample dataset (see Step 2)
+│   └── population.csv             # Optional: Population data
+├── scripts/                       # SQL scripts
+│   └── water_analysis.sql         # Your SQL queries
+├── outputs/                       # Results (charts, tables)
+│   ├── access_by_country.csv      # Exported query results
+│   └── water_access_map.png       # Optional visualization
+├── docs/                          # Documentation
+│   └── methodology.md             # Describe your approach
+└── README.md                      # Project overview
