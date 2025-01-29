@@ -1,0 +1,12 @@
+-- Calculate absolute number of people WITHOUT clean water access
+SELECT 
+  w.country,
+  w.access_to_clean_water,
+  p.total_population,
+  -- Calculate population without access
+  ROUND(p.total_population * (100 - w.access_to_clean_water) / 100, 0) AS people_without_access
+FROM water_access w
+JOIN population p 
+  ON w.country = p.country 
+  AND w.year = p.year  -- Join on country and year
+WHERE w.region = 'Africa';
